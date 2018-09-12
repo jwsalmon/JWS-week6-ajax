@@ -1,7 +1,12 @@
 body{
-  bacground-image: url();
+  background-image: url(../images/muscleCars.jpeg);
+  position: relative;
+  margin: 5px;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
+  
 }
 
 .car-button-color {
@@ -14,4 +19,7 @@ body{
     border: solid black;
    
    
+  }
+  #gifs-appear-here{
+    margin: 5px 0px 0px 30px;
   }

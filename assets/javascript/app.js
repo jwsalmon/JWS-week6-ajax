@@ -46,13 +46,14 @@ $(document).ready(function () {
                     gifDiv.prepend(carImage);
 
                     $("#gifs-appear-here").prepend(gifDiv);
-                    $(".gif").on("click", gifStillAnimated);
                 }
+                    $(".gif").on("click", gifStillAnimated);
             });
     }
 
     function gifStillAnimated() {
         var state = $(this).attr("data-state");
+        console.log(this);
         if (state === "still") {
             $(this).attr("src", $(this).attr("data-animate"));
             $(this).attr("data-state", "animate");
