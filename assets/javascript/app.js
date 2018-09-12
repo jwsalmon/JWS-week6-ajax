@@ -1,4 +1,4 @@
-$(document).ready(function () {
+//$(document).ready(function () {
     var topics = ["350z", "Corvette", "camaro", "Mustang",
         "Shelby Cobra", "Porsche 911", "Ferrari", "Lamborghini"];
 
@@ -73,4 +73,4 @@ $(document).ready(function () {
         setupButtons();
     });
     setupButtons();
-});
+//});
