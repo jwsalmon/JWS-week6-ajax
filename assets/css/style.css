@@ -1,3 +1,9 @@
+body{
+  bacground-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .car-button-color {
     color: darkcyan;
     border: solid black;

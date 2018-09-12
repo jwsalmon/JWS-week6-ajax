@@ -1,6 +1,6 @@
 $(document).ready(function () {
-    var topics = ["T Bird", "65 Corvette", "57 Corvette", "65 Mustang",
-        "Shelby Cobra", "911 Carrera", "Ferrari", "Lamborghini"];
+    var topics = ["350z", "Corvette", "camaro", "Mustang",
+        "Shelby Cobra", "Porsche 911", "Ferrari", "Lamborghini"];
 
     function setupButtons() {
         $("#buttons").empty();
